@@ -141,7 +141,6 @@ nav .bg ul li {
 nav .bg ul {
     list-style: none;
     position: absolute;
-    display: flex;
 }
 
 nav .bg ul li a {
@@ -153,10 +152,6 @@ nav .bg ul li ul {
     display: none;
 }
 
-nav .bg ul li {
-    transition: all .5s ease-in-out;
-
-}
 
 nav .bg:hover ul li ul {
     display: block;
@@ -236,7 +231,6 @@ nav .phone p {
 /* showcase */
 #showcase {
     background-color:#e2e2e2;
-    /* padding: 3rem ; */
 
 }
 #showcase .container {
