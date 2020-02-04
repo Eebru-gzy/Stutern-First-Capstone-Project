@@ -1,0 +1,118 @@
+ body{
+    background-color: #E0dada;
+} 
+.header-blue{
+  border: 0.2rem solid blue;
+  background-color: blue;
+  /* height: auto;  */
+  margin-right: 3px;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(172, 172, 172, 0.2);
+    max-width: 260px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .card :hover{
+    background-color:#E0dada;
+    cursor: pointer;
+  }
+
+  .picture{
+      max-width: 350px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 35px;
+      /* margin-bottom: 50px;
+      margin-left: 30px; */
+      margin: auto;
+    
+  }
+  .picture :hover{
+    cursor: pointer;
+  }
+  .mobile-pictures{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+     display: block;
+    
+  }
+ .section-text{
+      display: flex;
+      justify-content: start;
+      margin-left: 18px;
+      position: relative; /* change later*/
+      padding: 10px;
+  }
+
+  @media screen and (min-width: 400px) {
+    .section-text {
+      display: flex;
+      justify-content: center;
+      font-size: 29px;
+      text-decoration: ;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .section-text {
+      display: flex;
+      justify-content: start;
+      font-size: 40px;
+    }
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .cards-holder {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  
+ 
+  .card {
+    flex: 25%;
+    padding: 20px;
+  }
+  
+
+  @media screen and (max-width: 992px) {
+    .card {
+      flex: 50%;
+    }   
+  }
+  
+  @media screen and (max-width: 600px) {
+    .cards-holder {
+      flex-direction: column;
+    }
+  }
+ @media screen and (max-width: 500px) {
+    .picture {
+      flex: 50%;
+    }
+  }
+
+
+ 
