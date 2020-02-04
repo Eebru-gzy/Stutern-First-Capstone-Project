@@ -130,7 +130,7 @@ nav .bg {
 }
 
 nav .bg:hover .arrow {
-    transition: all .2s ease-in-out;
+    transition: all .2s ease;
     transform: rotate(180deg);
 }
 
@@ -192,12 +192,15 @@ nav .common {
      
 }
 
+/* mobile search icon */
+
+nav .mobile-search-icon {
+    display: none;
+}
+
 /* mid */
 nav .mid {
     position: relative;
-}
-
-nav .mid {
     width: 30rem;
     height: 3rem;
 }
@@ -242,19 +245,147 @@ nav .phone p {
 }
 
 #showcase .container img {
-    height: 500px;
-    width: 1520px;
+    cursor: pointer;
+}
+
+/* media queries */
+
+
+@media screen and (max-width: 1200px) {
+    header .header-search-bar input {
+        padding: 0.5rem 9rem;
+    }
+
+    header .header-search-bar div {
+        height: 2.2rem;
+        width: 4rem;
+    }
+
+    header {
+        height: 7rem;
+        justify-content: space-around;
+    }
+
+    nav {
+        top: 7rem;
+    }
+
+    nav .bg {
+        left: 1rem;
+    }
+
+    #showcase .container {
+        max-width: 1200;
+    }
+
+    #showcase .container img {
+        height: 200px;
+        width: 1100px;
+    }
+    
 }
 
 
+@media screen and (max-width: 950px) {
+    header .header-search-bar input {
+        padding: 0.5rem 6rem;
+    }
+
+    header .header-search-bar div {
+        height: 2.2rem;
+        width: 4rem;
+    }
+
+    #showcase .container {
+        max-width: 900;
+    }
+
+    #showcase .container img {
+        height: 200px;
+        width: 950px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    header .header-search-bar input {
+        padding: 0.5rem 4rem;
+    }
+
+    nav .bg ul li a {
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }
+
+    #showcase .container {
+        max-width: 700;
+    }
+
+    #showcase .container img {
+        height: 150px;
+        width: 700px;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+    header .header-search-bar input,
+        header .header-search-bar div {
+        display: none;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
+    nav  .nav{
+        justify-content: space-between;
+    }
+
+    nav .bg {
+        left: 0rem;
+    }
+
+    nav .bg ul li a {
+        margin-right: 0.2rem;
+        margin-left: 0.8rem;
+    }
+
+    nav .mid {
+        display: none;
+    }
+
+    nav .mobile-search-icon {
+        display: flex;
+    }
+
+    #showcase .container {
+        max-width: 600;
+    }
+
+    #showcase .container img {
+        height: 150px;
+        width: 600px;
+    }
 
 
+}
 
 
+@media screen and (max-width: 415px) {
+    nav .phone {
+        display: none;
+    }
 
+    #showcase .container {
+        max-width: 400;
+    }
 
-
-
+    #showcase .container img {
+        height: 150px;
+        width: 400px;
+    }
+}
 
 
 
