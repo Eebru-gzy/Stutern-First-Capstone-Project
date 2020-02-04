@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(238, 237, 235);
+    padding: 1rem;
+    width: fit-content;
+}
+
+.main-accessories, .main-used-deals {
+    margin-bottom: 5rem;
+}
+
+/* ACCESSORIES */
+
+.accessories {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.grid-container1-accessories {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container2-accessories {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+span {
+    border: 0.2rem solid blue;
+    background-color: blue;
+    height: auto;
+}
+
+@media only screen and (max-width: 660px) {
+    .grid-container1-accessories {
+        display: inline-grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    
+    .grid-container2-accessories {
+        display: inline-grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    .grid-container1-accessories {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+    
+    .grid-container2-accessories {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+}
+
+/* USED DEALS */
+
+.used-deals {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.grid-container1-used-deals {
+    display: inline-grid;
+    grid-template-columns: auto;
+}
+
+.grid-container2-used-deals {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+span {
+    border: 0.2rem solid blue;
+    background-color: blue;
+    height: auto;
+}
+
+@media only screen and (max-width: 660px) {
+    .used-deals {
+        width: 100%;
+    }
+    
+    .grid-container1-used-deals {
+        display: inline-grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    
+    .grid-container2-used-deals {
+        display: inline-grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    .used-deals {
+        width: 100%;
+    }
+    
+    .grid-container1-used-deals {
+        display: inline-grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    
+    .grid-container2-used-deals {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+}
+
+/* SPEAKERS & HEADPHONES */
+/* 
+h1 {
+    border-bottom: 0.001rem solid rgb(165, 164, 164);
+    padding-bottom: 1rem;
+}
+/* 
+.spk-hdph {
+    width: 100%;
+    height: 5rem;
+} */
+/* 
+.grid-container1-spk-hdph {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.grid-container1-spk-hdph div {
+    float: left;
+}
+
+.spk-hdph1 {
+    display: block;
+} */ 
