@@ -246,6 +246,8 @@ nav .phone p {
 
 #showcase .container img {
     cursor: pointer;
+    height: 400px;
+    width: 1300px;
 }
 
 /* media queries */
