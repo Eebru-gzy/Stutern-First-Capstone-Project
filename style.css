@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
+    background-color:#e2e2e2;
+    line-height: 1.7;
+    
+   
+    min-height: 100%;
+    box-sizing: border-box;
+
 }
 /* Header section */
 
@@ -390,4 +398,475 @@ nav .phone p {
 }
 
 
+/* OLUMIDE'S PART STARTS */
 
+/* .header-blue{
+    border: 0.2rem solid blue;
+    background-color: blue;
+    /* height: auto; 
+    margin-right: 3px;
+  
+  } */
+
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(172, 172, 172, 0.2);
+      max-width: 260px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+  
+    .card :hover{
+      background-color:#E0dada;
+      cursor: pointer;
+    }
+  
+    .picture{
+        max-width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px;
+        /* margin-bottom: 50px;
+        margin-left: 30px; */
+        margin: auto;
+      
+    }
+    .picture :hover{
+      cursor: pointer;
+    }
+    .mobile-pictures{
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+       display: block;
+      
+    }
+   .section-text{
+        display: flex;
+        justify-content: start;
+        margin-left: 18px;
+        padding: 10px;
+    }
+  
+    @media screen and (min-width: 400px) {
+      .section-text {
+        display: flex;
+        justify-content: center;
+        font-size: 29px;
+      }
+    }
+  
+    @media screen and (min-width: 600px) {
+      .section-text {
+        display: flex;
+        justify-content: start;
+        font-size: 40px;
+      }
+    }
+    
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+    
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+  
+    .cards-holder {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+    }
+    
+   
+    .card {
+      flex: 25%;
+      padding: 20px;
+    }
+    
+  
+    @media screen and (max-width: 992px) {
+      .card {
+        flex: 50%;
+      }   
+    }
+    
+    @media screen and (max-width: 600px) {
+      .cards-holder {
+        flex-direction: column;
+      }
+    }
+   @media screen and (max-width: 500px) {
+      .picture {
+        flex: 50%;
+      }
+    }
+
+
+    /* OLUMIDE'S PART ENDS */
+
+    /* JASON'S PART STARTS */
+
+    .main-accessories, .main-used-deals {
+        /* margin-bottom: 5rem; */
+    }
+    
+    /* ACCESSORIES */
+    
+    .accessories {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        background-color: white;
+        padding: 0.5rem;
+    }
+    
+    .grid-container1-accessories {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .grid-container2-accessories {
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    /* span {
+        border: 0.2rem solid blue;
+        background-color: blue;
+        height: auto;
+    } */
+    
+    @media only screen and (max-width: 660px) {
+        .grid-container1-accessories {
+            display: inline-grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+        }
+        
+        .grid-container2-accessories {
+            display: inline-grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+        }
+    }
+    
+    @media only screen and (min-width: 700px) and (max-width: 1000px) {
+        .grid-container1-accessories {
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+        }
+        
+        .grid-container2-accessories {
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+        }
+    }
+    
+    /* USED DEALS */
+    
+    .used-deals {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* grid-template-columns: auto;
+        grid-template-rows: auto; */
+        background-color: white;
+        padding: 0.5rem;
+    }
+    
+    .grid-container1-used-deals {
+        /* flex-basis: 2; */
+        /* display: inline-grid;
+        grid-template-columns: auto; */
+    }
+    
+    .grid-container2-used-deals {
+        display: flex;
+        justify-content: space-evenly;
+        /* display: inline-grid;
+        grid-template-columns: auto auto; */
+    }
+    
+    /* span {
+        border: 0.2rem solid #4faff2;
+        background-color: #4faff2;
+        height: auto;
+    } */
+    
+    @media only screen and (max-width: 660px) {
+        .used-deals {
+            /* width: 100%; */
+            flex-direction: column;
+        }
+        
+        .grid-container1-used-deals {
+            /* display: inline-grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto; */
+        }
+        
+        .grid-container2-used-deals {
+            /* display: inline-grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto; */
+        }
+    }
+    
+    @media only screen and (min-width: 700px) and (max-width: 1000px) {
+        .used-deals {
+            /* width: 100%; */
+        }
+        
+        .grid-container1-used-deals {
+            /* display: inline-grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto; */
+        }
+        
+        .grid-container2-used-deals {
+            /* display: inline-grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto; */
+        }
+    }
+
+    /* JASON'DS PART ENDS */
+
+    /* AYO'S PART STARTS */
+
+    main {
+        background-color: #e2e2e2;
+        color: black;
+        padding: 1rem;
+        padding-bottom: 6rem;
+      }
+      
+      
+      
+      .block, .block-brand{
+          text-align: center;
+      }
+      
+      .block-title{
+        font-size: 2.5rem;
+      }
+      .block-content {
+        background-color: #ffffff;
+        padding: 1rem;
+        max-width: 140rem;
+        overflow: hidden;
+        margin: auto;
+      
+      }
+      .block-content ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+      }
+      
+      
+      
+      .block-content li {
+        list-style: none;
+        border: .2rem solid #d4d2d2;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        
+        
+      }
+      
+      .block-content li:hover {
+        border: .2rem solid #4faff2;
+        
+      }
+      
+      footer{
+        background-color: rgb(53, 51, 51);
+        color: rgb(242, 242, 242); 
+        
+        font-size: small;
+        line-height: 1.9;
+      }
+      
+      
+      
+      .footerHeader {
+        position: relative;
+        top: 2rem;
+        left: 5rem;
+        padding-bottom: 4rem;
+      }
+       
+      .service-content h4 {
+          
+          color: rgb(242, 242, 242);
+      }
+      
+      .service-content p {
+        color: rgb(212, 208, 208);
+      }
+      
+      .line{
+        width: 100%;
+        background-color: rgb(212, 208, 208);
+      }
+      
+      .footerBody {
+        position: relative;
+        top: 2rem;
+        left: 5rem;
+        padding-bottom: 8rem;
+      }
+      .connected p {
+        padding-top: 1rem;
+        font-size: 1.1rem;
+        color: rgb(212, 208, 208);
+      }
+      .connected input[type="email"] {
+        padding: .5rem;
+      }
+      
+      
+      
+      .socialMedia ul{
+          margin-top: 1rem;
+          list-style: none;
+          display: flex;
+          
+          
+      }
+      
+       
+      .socialMedia li{
+        width: 2rem;
+        background-color: white;
+        margin: .1rem;
+        border: .1rem solid rgb(214, 206, 206);
+        text-align: center;
+      }
+      
+      .socialMedia a {
+        color: black;
+      }
+      
+      .aboutUs ul {
+        list-style: none;
+       
+      }
+      .howToBuy ul {
+        list-style: none;
+      }
+       .customerService ul {
+         list-style: none;
+       }
+      
+       .partnerPromotion ul {
+              list-style: none;
+       }
+      
+       .aboutUs a {
+         text-decoration: none;
+         color: rgb(212, 208, 208);
+       }
+      
+       .howToBuy a {
+          text-decoration: none;
+          color: rgb(212, 208, 208);
+       }
+      
+       .customerService a {
+         text-decoration: none;
+         color: rgb(212, 208, 208);
+       }
+      
+       .partnerPromotion a {
+         text-decoration: none;
+         color: rgb(212, 208, 208);
+       }
+      
+       .copyRight {
+         text-align: center;
+         padding: 1rem;
+         padding-bottom: 2rem;
+         background-color: rgb(34, 34, 34);
+       }
+      
+       .hidden {
+         display: none;
+       }
+
+       .blueBorder {
+        padding: .1rem .1rem;
+       background-color: #4faff2 !important;
+       margin-right: .5rem;
+    
+     }
+      
+       @media screen and  (min-width: 1190px) {
+              .row-items {
+                display: flex;
+                justify-content: space-evenly;
+              }
+      
+              .block, .block-brand{
+                text-align: left;
+            }
+      
+             .blueBorder {
+               padding: .1rem .1rem;
+              background-color: #4faff2 !important;
+              margin-right: .5rem;
+           
+            }
+       }
+      
+       @media screen and (min-width: 760px) {
+              
+            .footerHeader {
+              position: relative;
+              top: 2rem;
+              left: 2rem;
+              padding-bottom: 4rem;
+            }
+      
+            .footerBody {
+              position: relative;
+              top: 2rem;
+              left: 1rem;
+              padding-bottom: 8rem;
+              
+            }
+      
+            .row-items {
+              display: flex;
+              justify-content: space-around;
+              flex-wrap: nowrap;
+            }
+      
+            .service-content {
+              margin: 1rem;
+            }
+      
+            .aboutUs, .howToBuy, .customerService,
+            .partnerPromotion {
+              margin-left: 1rem;
+            }
+      
+            
+       }
