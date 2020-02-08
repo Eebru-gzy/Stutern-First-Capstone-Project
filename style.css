@@ -22,6 +22,7 @@ header {
     position: sticky;
     top: 0;
     background-color: #fff;
+    z-index: 2;
 }
 header {
     display: flex;
@@ -118,6 +119,7 @@ header .header-icons .header-links div a:hover {
 nav {
     position: sticky;
     top: 7.5rem;
+    z-index: 2;
 }
 nav  .nav{
     display: flex;
