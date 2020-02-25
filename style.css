@@ -247,17 +247,15 @@ nav .phone p {
 
 }
 #showcase .container {
-    max-width: 1400px;
     overflow: hidden;
-    margin: auto;
-    padding: 1.5rem;
+    padding-top: 1.5rem;
 
 }
 
 #showcase .container img {
     cursor: pointer;
     height: 400px;
-    width: 1300px;
+    width: 1600px;
 }
 
 /* media queries */
@@ -287,7 +285,7 @@ nav .phone p {
     }
 
     #showcase .container {
-        max-width: 1200;
+        /* max-width: 1200; */
     }
 
     #showcase .container img {
@@ -309,7 +307,7 @@ nav .phone p {
     }
 
     #showcase .container {
-        max-width: 900;
+        /* max-width: 900; */
     }
 
     #showcase .container img {
@@ -330,7 +328,7 @@ nav .phone p {
     }
 
     #showcase .container {
-        max-width: 700;
+        /* max-width: 700; */
     }
 
     #showcase .container img {
@@ -372,7 +370,7 @@ nav .phone p {
     }
 
     #showcase .container {
-        max-width: 600;
+        /* max-width: 600; */
     }
 
     #showcase .container img {
@@ -390,7 +388,7 @@ nav .phone p {
     }
 
     #showcase .container {
-        max-width: 400;
+        /* max-width: 415; */
     }
 
     #showcase .container img {
@@ -665,7 +663,7 @@ nav .phone p {
       }
       
       .block-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       .block-content {
         background-color: #ffffff;
@@ -732,7 +730,7 @@ nav .phone p {
       .footerBody {
         position: relative;
         top: 2rem;
-        left: 5rem;
+        left: 4rem;
         padding-bottom: 8rem;
       }
       .connected p {
